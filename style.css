@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;;
+}
+.nav{
+    background-color: hsl(0, 40%, 98%)
+}
+.nav li{
+    list-style: none;
+    margin: 2rem;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: #283B62;
+    font-size: 14px;
+}
+.nav a:hover{
+    color: #CBB492;
+}
+.carousel-item img{
+    width: 10vw;
+   height: 450px;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+}
+
+.numéro{
+    background-color: blue;
+    margin: 10px;  
+}
+
+.gallery img{
+    height: 300px;
+    width: 300px;    
+}
+.gallery2 img{
+    height: 300px;
+    width: 300px;  
+}
+
+section h2{
+    color: #283B62;
+    text-align: center;
+    padding: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.item {
+    margin: 0;
+    padding: 10px; 
+    flex: 1 1 200px;
+    max-width: 300px;
+    
+}
+.prix{
+    color:#1E3054E6;
+    font-weight:400;
+    
+
+}
+.ville{
+    color:#1E3054E6;
+    font-weight: bold;
+}
+.piece{
+    color: #CBB492;
+}
+.description{
+    color: #A0A09F;
+    font-size: 16px;
+    
+}
+.galerie button{
+    color: #5272B2;
+    border: solid #5272B2;
+    background-color: transparent;
+    padding: 05px;
+}
+.maison{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #283B62;
+    padding: 20px;
+}
+.maison2{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #293B5F;
+    padding: 20px;
+
+}
+.describe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+}
+.ville1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.description1{
+    color: #616E89;
+}
+.prix2{
+    color: #5272B2;
+    font-weight: bold;
+}
+.icone ul{
+    display: flex;
+    justify-content: center;
+
+}
+ul li{
+    list-style: none;
+    color: #000000;
+    
+}
+
+.icon{
+text-align: center;
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    color: #CBB492;
+}
+.service{
+    color: #283B62;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text{
+    font-size: 16px;
+    color: #283B62;
+    margin-right: 20px;
+}
+.témoins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.temoins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}  
+.temoins i{
+    color: #CBB492;
+    margin-bottom: 18px;
+
+}
+.temoignages{
+    background-image: url(./noir.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    opacity: .9;
+    padding: 50px;
+}
+.commentaire{
+    color: white;
+    margin: 10px;
+
+}
+.auteur{
+    color: #CBB492;
+    font-weight: bold;
+    margin: 10px;
+
+}
