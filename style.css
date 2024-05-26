@@ -170,11 +170,12 @@ text-align: center;
 
 }
 .temoignages{
-    background-image: url(./noir.jpg);
+    background-image: url(./123.jpg);
     background-size: cover;
     background-repeat: repeat;
     opacity: .9;
     padding: 50px;
+    background-color: #000000;
 }
 .commentaire{
     color: white;
@@ -186,4 +187,52 @@ text-align: center;
     font-weight: bold;
     margin: 10px;
 
+}
+.contactp{
+    font-size: 18px;
+    color: #283B62;
+    font-weight: bold;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    color: #605E5E;
+}
+
+.contact form input{
+    width: 100%;
+    height: 100%;
+}
+.contact form textarea{
+    width: 100%;
+}
+.contact form input:hover{
+    background-color: hsl(0, 9%, 96%);
+    border-color: hsl(0, 9%, 96%);;
+}
+
+.contact form button{
+    width: 30%;
+    margin-top: 8px;
+    color: white;
+    background-color: #283B62;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+    padding: 05px;
+}
+.localisation{
+    color: #605E5E;
+}
+.contactez{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.adresse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
