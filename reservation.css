@@ -42,4 +42,16 @@
       text-align: center;
  }
 
- 
+ footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #CBB492;
+    color: white;
+    padding: 20px;
+}
+
+footer i{
+    color: white;
+}
