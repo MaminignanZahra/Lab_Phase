@@ -18,7 +18,8 @@
     font-size: 14px;
 }
 .nav a:hover{
-    color: #B8C2D8;
+    color: #CBB492;
+    font-weight: bold;
 }
 .carousel-item img{
     width: 10vw;
