@@ -21,7 +21,13 @@
  img{
     width: 250px;
     height: 300px;
+   
  }
+ img:hover{
+   -ms-transform: scale(1.2); /* IE 9 */
+   -webkit-transform: scale(1.2); /* Safari 3-8 */
+   transform: scale(1.2);
+   }
  h5{
     color: #2F2E2E;
     font-size: 22px;
